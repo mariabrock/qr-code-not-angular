@@ -2,42 +2,65 @@
     font-family: Outfit, 'Merriweather', serif;
 }
 
-html, body {
+html {
     height: 100%;
     margin: 0;
-    font-size: 15px;
+    font-size: 14px;
 }
 
-.container {
-    margin: 10em 5em;
-    padding: 5em 10em;
+body {
+    background-color: white;
+}
+
+.background {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: hsl(212, 45%, 89%);
-}
-
-img {
-    height: 300px;
-    width: 300px;
-    border-radius: 10px;
+    height: 100%;
+    box-shadow: 1px 1px 20px;
+    margin: 5em;
+    padding: 10em;
 }
 
 .card {
-    justify-content: center;
-    height: 600px;
-    width: 350px;
-    background-color: white;
-    border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: white;
+        border-radius: 20px;
+        height: 525px;
+        width: 300px;
+        padding: 1em;
+        margin: auto;
+        box-shadow: 1px 1px 20px;
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+img {
+    border-radius: 20px;
+}
 
-/*@media only screen and (max-width: 600px) {*/
-/*    .container {*/
-/*        display: flex;*/
-/*        justify-content: center;*/
-/*        background-color: hsl(212, 45%, 89%);*/
-/*        height: 100%;*/
-/*        margin: 0;*/
-/*        padding-top: 5em;*/
-/*    }*/
-/*}*/
+.copy {
+    padding: 1em;
+}
+
+p {
+    color: hsl(220, 15%, 55%); 
+}
+
+.attribution { 
+    font-size: 10px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+
+@media only screen and (max-width: 480px) {
+   body {
+    background-color: hsl(212, 45%, 89%);
+    padding: 0;
+   }
+}
