@@ -38,7 +38,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [Bootstrap 5](https://getbootstrap.com/) - For styles
 
 ### What I learned
 
@@ -60,8 +59,7 @@ I look forward to using this component in a larger project.
 
 ### Useful resources
 
-- [Bootstrap Docs](https://getbootstrap.com/) -  All the Bootstrap CSS things.
-- [Stack Overfloe](https://stackoverflow.com/) - Good for specific questions
+- [Stack Overflow](https://stackoverflow.com/) - Good for specific questions
 
 ## Author
 
